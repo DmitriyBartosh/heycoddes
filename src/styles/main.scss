@@ -1,0 +1,10 @@
+@import "abstracts/variables";
+@import "base/global";
+@import "base/reset";
+@import "base/typography";
+
+// Страницы 
+@import "components/portfolioPreview.scss";
+@import "components/isense.scss";
+
+// Компоненты

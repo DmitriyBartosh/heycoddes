@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/global/icon.png",
       },
     },
     "gatsby-plugin-sharp",
@@ -19,10 +19,18 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: "global",
+        path: "./src/images/global",
       },
-      __key: "images",
+      __key: "global",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "workPreview",
+        path: "./src/images/workPreview/",
+      },
+      __key: "workPreview",
     },
   ],
 };

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Yeseva+One&display=swap');
+
+html {
+  font-size: 62.5%;
+  line-height: 1.25;
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+  }
+}
+
+h1 {
+  font-family: 'Yeseva One', serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 4rem;
+  span{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-style: italic;
+    @media (max-width: $layout-breakpoint-medium) {
+      font-size: 3rem;
+      letter-spacing: 1px;
+      line-height: 3rem;
+    }
+    @media (max-width: $layout-breakpoint-mobile) {
+      font-size: 2rem;
+      letter-spacing: 1px;
+      line-height: 2rem;
+    }
+  }
+  @media (max-width: $layout-breakpoint-medium) {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
+  }
+  @media (max-width: $layout-breakpoint-mobile) {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+  }
+}
+
+p,
+a,
+span {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  @media (max-width: $layout-breakpoint-mobile) {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+button{
+  font-size: 1.4rem;
+  @media (max-width: $layout-breakpoint-mobile) {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+a {
+  font-weight: 500;
+}
